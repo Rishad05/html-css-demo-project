@@ -1,0 +1,303 @@
+*{margin:0; padding:0}
+body{
+	background-color:#ccffe6;
+}
+blockquote{
+	background:#ddd;
+	margin-left:50px;
+	padding:10px;
+	padding-left:30px;
+	border-left:2px solid orange;
+}
+.full_wrap{
+	width:100%;
+}
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.header_bg{
+	background:#ffd11a;
+	border-bottom:5px #00cc00 solid;
+	border-top:5px #00cc00 solid;
+}
+#header{
+	background-color:#ffd11a;
+	padding:10px;
+	border-right:1px #b38f00 solid;
+	border-left:1px #b38f00 solid;
+	
+	
+	
+	
+}
+#header h2{
+	color:#ffffff;
+	font-family:georgia;
+}
+#header p{
+	color:#003300;
+	font-family:georgia;
+}
+.full_wrap{
+	width:100%
+	
+}
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.nav_bg{
+	background:#fff;
+	border-bottom:5px #00cc00 solid;
+}
+#nav{
+	background-color:#fff;
+	height:38px;
+	border-right:1px  #000 solid;
+	border-left:1px  #000 solid;
+	
+}
+#nav ul{
+	background-color:#ffffff;
+	list-style-type:none;
+	z-index:999;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid #001a00;
+	position:relative;
+}
+#nav ul li:last-child{
+	border-right:none;
+	
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#663300;
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+	
+	-webkit-transition:0.2s all ease;
+	-moz-transition:0.2s all ease;
+	transition:0.2s all ease;
+}
+#nav ul li a:hover{
+	color:#ffffff;
+	background-color:#00cc00;
+	font-family:georgia;
+}
+#nav ul li ul{
+	position:absolute;
+	left:-99999px;
+}
+#nav ul li ul li:first-child{
+	border-top:5px solid #00cc00;
+}
+#nav ul li:hover ul{
+	left:0;
+
+}
+#nav ul li ul li{
+	border-right:none;
+	border-bottom:1px solid #001a00;
+	width:200px;
+	position:relative;
+}
+#nav ul li ul li ul{
+	position:absolute;
+	top:-99999px;
+}
+#nav ul li ul li:hover ul{
+	top:-1px;
+	left:200px;
+}
+#nav ul li ul li ul li{
+	border-left:1px solid #001a00;
+}
+#nav ul li ul li ul li:first-child{
+	border-top:1px solid #001a00;
+}
+.full_wrap{
+	width:100%;
+}
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.slider_bg{
+	background:#222222;
+}
+#section{
+	border-right:1px #fff solid;
+	border-left:1px #fff solid;
+}
+.full_wrap{
+	width:100%;
+	
+}
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.content_bg{
+	background:#fff;
+}
+#main_content{
+	background-color:#fff;
+	padding:10px;
+	overflow:hidden;
+	border-right:1px #000 solid;
+	border-left:1px #000 solid;
+	
+}
+#article{
+	width:620px;
+	margin-right:20px;
+	float:left;
+}
+#article p{
+	margin:15px 0;
+	font-size:15px;
+	text-align:justify;
+}
+#article img{
+	width:480px;
+	
+}
+#article figure{
+	width:480px;
+	padding:10px;
+	background-color:#ddd;
+	margin:0 auto;
+	display:block;
+}
+#article figcaption{
+	text-align:center;
+	color:green;
+	font-family:arial;
+	font-weight:bold;
+}
+
+#article h2{
+	color:#333300;
+}
+#article h3{
+	color:#333300;
+}
+#sidebar{
+	width:290px;
+	float:left;
+}
+#sidebar h2{
+	color:#333300;
+}
+#sidebar ul{
+	list-style-type:circle;
+	padding:5px;
+}
+#sidebar ul li{
+	border-bottom:1px solid #e0e0d1;
+	margin-bottom:3px;
+}
+#sidebar ul li:last-child{
+	border-bottom:0;
+}
+#sidebar ul li a{
+	text-decoration:none;
+	display:block;
+	padding:3px;
+	color: #b38600;
+}
+.full_wrap{
+	width:100%;
+}
+.wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+}
+.footer_bg{
+	background:#662200
+}
+#footer{
+	background-color:#662200;
+	padding:5px;
+	text-align:center;
+	
+}
+#footer p{
+	color:#fff;
+}
+#main_article_single{
+	margin-bottom:25px;
+	border-bottom:1px solid #635548;
+	overflow:hidden;
+}
+#imgp_wrap img{
+	width:75px;
+	height:75px;
+	float:left;
+	padding:5px;
+	margin-right:10px;
+	background-color:#fff;
+	border:1px solid #ddd;
+}
+#imgp_wrap p{
+	float:left;
+	width:500px;
+	margin-top:0;
+}
+#imgp_wrap{
+	margin-top:10px;
+}
+#main_sidebar{
+	border-bottom:1px solid #635548;
+	margin-bottom:25px;
+	overflow:hidden;
+}
+#main_sidebar h2{
+	margin-bottom:10px;
+}
+
+#Social_share{
+	list-style-type:none;
+	padding:10px;
+	position:fixed;
+	right:0%;
+	top:25%;
+	background:#ddd;
+	border-radius:15px 0 0 15px;
+	
+	
+}
+#Social_share li{
+	float:none;
+}
+#Social_share li img{
+	width:32px;
+	height:32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
